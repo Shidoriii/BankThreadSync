@@ -9,7 +9,6 @@ public class ThreadDeposit extends Thread {
         this.amount = amount;
     }
 
-    @Override
     public void run() {
         bank.deposit(name, amount);
     }

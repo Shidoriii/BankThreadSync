@@ -9,7 +9,6 @@ public class ThreadWithdrawal extends Thread {
         this.amount = amount;
     }
 
-    @Override
     public void run() {
         bank.withdraw(name, amount);
     }
